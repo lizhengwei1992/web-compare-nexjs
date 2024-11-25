@@ -12,10 +12,10 @@ interface ThemeCardProps {
 export default function ThemeCard({ theme }: ThemeCardProps) {
   return (
     <Card className="overflow-hidden transition-all duration-300 hover:shadow-xl">
-      <div className="p-6 space-y-6">
+      <div className="p-6 space-y-4">
         <div className="flex items-start justify-between">
           <div>
-            <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <h2 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               Theme {theme.theme_id}
             </h2>
           </div>
