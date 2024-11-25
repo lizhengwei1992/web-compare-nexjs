@@ -69,7 +69,7 @@ export default function Home() {
           disabled={isLoading}
         />
 
-        <ScrollArea className="h-[calc(100vh-12rem)] rounded-lg border bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm">
+        <ScrollArea className="h-[calc(100vh-10rem)] rounded-lg border bg-white/30 dark:bg-gray-800/30 backdrop-blur-sm">
           <div className="p-6 space-y-8">
             {themes.map((theme) => (
               <ThemeCard key={theme.theme_id} theme={theme} />
@@ -90,6 +90,9 @@ export default function Home() {
             )}
           </div>
         </ScrollArea>
+        <div className="text-center text-gray-500 dark:text-gray-400 mt-6">
+          Copyright © 2024 zhengwei.li
+        </div>
       </div>
     </main>
   );
