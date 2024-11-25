@@ -56,7 +56,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 dark:from-gray-700 dark:via-gray-900 dark:to-gray-700">
+    <main className="min-h-screen from-gray-900 via-gray-100 to-gray-900 dark:from-gray-700 dark:via-gray-900 dark:to-gray-700">
       <div className="container mx-auto px-4 py-8">
         <Header isLoading={isLoading} onUploadClick={handleButtonClick} />
         
